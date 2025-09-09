@@ -16,7 +16,6 @@ on:
 jobs:
   compile:
     runs-on: self-hosted
-    needs: security-check
 
     steps:
     - uses: actions/checkout@v4
